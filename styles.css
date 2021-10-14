@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    background-image: url('Fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    text-align: center;
+ 
+    }
+  
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+      
+  }
+
+    th {
+      background-color: #abaeb1;
+    }
+    td {
+      background-color: #bdbbbb;
+    }
+    
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 0 auto;
+      margin-top: 4%;
+      padding: 20px;
+      text-align: center;
+      
+    } 
+    .hora{width: 70px;height: 20px; }
+
+    .final{height: 5px;padding: 1px;}
+          
+  
+
+    table{width: 80%;
+      background-color:grey
+    }
+
+
+#prfo1{
+      cursor: pointer;
+      background-color: rgb(177, 21, 21);
+      color: white;     
+}
+#prfo2{
+  cursor: pointer;
+  background-color: rgb(3, 42, 150);
+  color: white;     
+}
+#prfo3{
+  cursor: pointer;
+  background-color: rgb(77, 63, 63);
+  color: white;     
+}
+#prfo4{
+  cursor: pointer;
+  background-color: rgb(236, 186, 77);  
+  color: white;   
+}
+#prfo1:hover  ~ table tr td.sibling-highlight1 {
+      background-color: rgb(177, 21, 21);  
+      color: white;
+      
+}
+#prfo2:hover  ~ table tr td.sibling-highlight2 {
+  background-color: rgb(3, 42, 150);   
+  color: white;
+  
+}
+#prfo3:hover  ~ table tr td.sibling-highlight3 {
+  background-color: rgb(77, 63, 63);
+  color: white;
+  
+}
+#prfo4:hover  ~ table tr td.sibling-highlight4 {
+  background-color: rgb(236, 186, 77);
+  
+}
+
